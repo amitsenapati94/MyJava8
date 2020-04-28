@@ -13,6 +13,8 @@ public class ListSorting {
     {
         List<String> list = Arrays.asList("test", "amit", "dave", "dave", "joe", "dave", "test");
 
+        list.stream().filter(x -> x.equals("")).findFirst();
+
 
         Map<String, Integer> map = new HashMap<String, Integer>();
 
