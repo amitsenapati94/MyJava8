@@ -22,7 +22,7 @@ public class TechName {
 
         Stream<TechName> stre = tech.stream();
 
-        //stre.map(a -> a.techName).forEach(System.out::print);
+        stre.map(a -> a.techName).forEach(System.out::print);
 
 
 

@@ -14,9 +14,13 @@ public class TestMe {
         // write your code here
        // System.out.println("hello world");
 
+
+        //applies discount to entries more than 20 individually and then adds up
+
         final List<BigDecimal> prices = Arrays.asList(
                 new BigDecimal("10"), new BigDecimal("20"),
-                new BigDecimal("30"));
+                new BigDecimal("30"),new BigDecimal("40"));
+
 
         final BigDecimal finalDiscountedPrice =
         prices.stream()
@@ -24,7 +28,7 @@ public class TestMe {
               .map(price -> price.multiply(BigDecimal.valueOf(0.9)))
               .reduce(BigDecimal.ZERO, BigDecimal::add);
 
-        //System.out.println("Total Discounted Price :" + finalDiscountedPrice);
+        System.out.println("Total Discounted Price :" + finalDiscountedPrice);
 
 
         final List<String> listOfFriends = Arrays.asList("Joe","Dave");

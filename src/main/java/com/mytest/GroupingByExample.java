@@ -24,7 +24,15 @@ public class GroupingByExample {
             .collect(Collectors.groupingBy(Student::getCourse));
             //.forEach(s,t ->System.out.println(s));
 
-        map.forEach((s, studentList) -> System.out.println(s));
+        //map.forEach((s, studentList) -> System.out.println(s));
+
+        System.out.println(map);
+
+        /*map.forEach(( k,v) -> {
+            System.out.println(k);
+            System.out.println(v);
+        });
+*/
 
 
     }

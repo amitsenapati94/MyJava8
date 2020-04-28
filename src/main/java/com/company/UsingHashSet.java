@@ -5,6 +5,9 @@ import java.util.*;
  */
 public class UsingHashSet {
 
+    //if Customer does not override equals and hashcode then the size will be calculated as 2
+    //with overriden equals and hascode the size will be 1
+
     public static void main(String a[])
     {
         Customer customer1 = new Customer();

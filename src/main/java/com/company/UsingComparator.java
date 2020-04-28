@@ -36,6 +36,19 @@ public class UsingComparator {
 
         Collections.sort(list, new EmployeeAgeComparator());
 
+
+
+        //This won't compile.
+        //Collections.sort(list);
+
+        /*Required type:
+        List
+                <T>
+        Provided:
+        List
+                <Employee2>
+        reason: no instance(s) of type variable(s) T exist so that Employee2 conforms to Comparable<? super T>*/
+
         System.out.println(list);
 
     }
