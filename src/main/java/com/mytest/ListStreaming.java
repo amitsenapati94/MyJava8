@@ -12,7 +12,8 @@ public class ListStreaming {
 
         empDetails.stream()
                 .filter(s-> s.contains("1"))
-                .sorted() .forEach(System.out::println); //line n1
+                .sorted()
+                .forEach(System.out::println); //line n1
 
 
         List<String> listVal = Arrays.asList("Joe", "Paul", "Alice", "Tom");
