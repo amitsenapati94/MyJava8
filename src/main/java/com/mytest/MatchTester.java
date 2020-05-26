@@ -5,6 +5,8 @@ import java.util.List;
 import java.util.function.Predicate;
 
 
+//allMatch will just check as long as it is false
+//anyMatch will check for all entries
 
 public class MatchTester {
 
@@ -16,10 +18,10 @@ public class MatchTester {
             return n.contains("red");
         };
 
-        /* boolean allMatch = colors.stream()
+       /*  boolean allMatch = colors.stream()
                 .filter(c -> c.length() > 3)
-                .allMatch(test);
-        */
+                .allMatch(test);*/
+
 
         boolean anyMatch = colors.stream()
                 .filter(c -> c.length() > 3)

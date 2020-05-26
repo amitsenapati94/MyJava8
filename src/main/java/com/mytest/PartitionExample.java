@@ -5,9 +5,17 @@ import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
 
+
+      /*  partitioningBy will always return a map with two entries, one for where the predicate is true and one for where it is false.
+        It is possible that both entries will have empty lists, but they will exist.
+        That's something that groupingBy will not do, since it only creates entries when they are needed.*/
+
 public class PartitionExample {
 
-    private static final int PASS_THRESHOLD = 50;
+    //private static final int PASS_THRESHOLD = 50;
+
+    private static final int PASS_THRESHOLD = 95;
+
 
     public static void main(String[] args) {
 
@@ -42,8 +50,8 @@ public class PartitionExample {
            //             .collect(Collectors.groupingBy(Student::getGrade));
 
 
-        passFailMap.size();
-        passFailMapGroupBy.size();
+        System.out.println("partition: "+passFailMap.size());
+        System.out.println("group by: "+passFailMapGroupBy.size());
     }
 
 
