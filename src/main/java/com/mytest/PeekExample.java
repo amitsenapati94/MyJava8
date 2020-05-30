@@ -15,16 +15,16 @@ public class PeekExample {
 
         // performing action sum on elements of
         // given range and storing the result in sum
-        int sum = stream.peek(System.out::println).sum();
+        //int sum = stream.peek(System.out::println).sum();
 
         // Displaying the result of action performed
-        System.out.println("sum is : " + sum);
+        //System.out.println("sum is : " + sum);
 
         // performing action count on elements of
         // given range and storing the result in Count
-        long Count = stream.peek(System.out::println).count();
+        long count = stream.peek(System.out::println).count();
 
         // Displaying the result of action performed
-        System.out.println("count : " + Count);
+        System.out.println("count : " + count);
     }
 }
