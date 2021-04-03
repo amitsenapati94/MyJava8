@@ -11,7 +11,7 @@ public class PriorityQueueTest {
     {
         PriorityQueue<String> pq = new PriorityQueue<String>();
 
-        String[] sa = {"b","a","d"};
+        String[] sa = {"b","a","d","d"};
 
         for (String s : sa)
         {

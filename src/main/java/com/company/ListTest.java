@@ -27,6 +27,12 @@ public class ListTest {
             System.out.println(iterator.next());
         }
 
+        List<String> alist = new ArrayList<>();
+        alist.add(1,"one");
+        alist.add(2,"two");
+        alist.add(0,"three");
+
+        alist.stream().forEach( e -> System.out.println(e));
 
        /* CopyOnWriteArrayList<Integer> cowList = new CopyOnWriteArrayList<Integer>();
         cowList.add(4);

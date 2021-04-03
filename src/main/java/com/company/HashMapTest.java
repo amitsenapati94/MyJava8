@@ -48,6 +48,8 @@ public class HashMapTest {
         map.put("1", "hi");
         map.put("1", "bye");
 
+
+
         System.out.println(map.get("1"));
     }
 }
