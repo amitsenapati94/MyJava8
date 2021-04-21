@@ -1,4 +1,4 @@
-package com.immutable;
+package main.java.com.immutable;
 
 public class StringHolderImmutable {
 

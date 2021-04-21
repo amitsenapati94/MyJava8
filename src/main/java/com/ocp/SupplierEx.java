@@ -1,4 +1,4 @@
-package com.ocp;
+package main.java.com.ocp;
 
 import java.time.LocalDate;
 import java.util.function.Supplier;

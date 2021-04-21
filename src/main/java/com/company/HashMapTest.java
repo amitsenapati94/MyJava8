@@ -1,4 +1,4 @@
-package com.company;
+package main.java.com.company;
 import java.util.*;
 /**
  * Created by amitsenapati on 8/26/17.

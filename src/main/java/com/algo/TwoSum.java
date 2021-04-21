@@ -1,11 +1,7 @@
-package com.algo;
-
-import com.sun.java.swing.plaf.windows.WindowsDesktopIconUI;
+package main.java.com.algo;
 
 import java.util.HashMap;
-import java.util.HashSet;
 import java.util.Map;
-import java.util.Set;
 
 public class TwoSum {
 

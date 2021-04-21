@@ -1,7 +1,4 @@
-package com.algo;
-
-import java.util.HashSet;
-import java.util.Set;
+package main.java.com.algo;
 
 public class FindPairSorted {
 

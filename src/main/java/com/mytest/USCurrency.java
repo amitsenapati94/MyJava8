@@ -1,4 +1,4 @@
-package com.mytest;
+package main.java.com.mytest;
 
 
 //can't have a public constructor here

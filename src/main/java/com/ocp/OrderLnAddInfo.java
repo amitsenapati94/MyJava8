@@ -1,4 +1,4 @@
-package com.ocp;
+package main.java.com.ocp;
 
 public class OrderLnAddInfo {
 

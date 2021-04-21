@@ -1,4 +1,4 @@
-package com.venkat;
+package main.java.com.venkat;
 
 import java.math.BigDecimal;
 import java.util.Arrays;

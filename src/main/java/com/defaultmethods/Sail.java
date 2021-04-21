@@ -1,4 +1,4 @@
-package com.defaultmethods;
+package main.java.com.defaultmethods;
 
 public interface Sail {
 

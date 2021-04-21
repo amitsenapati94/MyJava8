@@ -1,4 +1,4 @@
-package com.multithread;
+package main.java.com.multithread;
 
 /**
  * Created by amitsenapati on 11/16/16.

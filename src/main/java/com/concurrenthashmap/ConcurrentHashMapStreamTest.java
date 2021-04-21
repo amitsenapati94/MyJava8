@@ -1,8 +1,9 @@
 //https://www.journaldev.com/122/concurrenthashmap-in-java
 
-package com.concurrenthashmap;
+package main.java.com.concurrenthashmap;
 
 import java.util.HashMap;
+import java.util.Iterator;
 import java.util.Map;
 import java.util.Set;
 import java.util.concurrent.ConcurrentHashMap;
@@ -31,6 +32,13 @@ public class ConcurrentHashMapStreamTest {
 
 
         System.out.println("hashmap after interation: "+map);
+
+        Iterator itr = map.entrySet().iterator();
+
+        while(itr.hasNext()){
+            itr.remove();
+        }
+
 
 
        Map<String,String> concurrentHashMap = new ConcurrentHashMap<>();

@@ -1,4 +1,4 @@
-package com.fpij;
+package main.java.com.fpij;
 
 import java.util.stream.Stream;
 

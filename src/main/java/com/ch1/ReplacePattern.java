@@ -1,4 +1,4 @@
-package ctci.ch1;
+package main.java.com.ch1;
 
 public class ReplacePattern {
 

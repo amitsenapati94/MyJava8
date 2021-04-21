@@ -1,4 +1,4 @@
-package com.ocp;
+package main.java.com.ocp;
 
 import javax.naming.ldap.HasControls;
 import java.util.HashMap;

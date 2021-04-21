@@ -1,6 +1,4 @@
-package com.ocp;
-
-import java.util.function.Predicate;
+package main.java.com.ocp;
 
 public class FindMatchingAnimals {
 
@@ -18,8 +16,9 @@ public class FindMatchingAnimals {
 
 public static void main(String[] args) {
 
-print(new Animal("fish", false, true), b -> b.canHop());
-print(new Animal("kangaroo", true, false), (Animal a) -> a.canHop());
+//print(new Animal("fish", false, true), b -> b.canHop());
+//print(new Animal("kangaroo", true, false), (Animal a) -> a.canHop());
+print(new Animal("dolphine", false, true), (Animal a) -> a.canSwim());
 
     }
 }

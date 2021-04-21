@@ -1,11 +1,9 @@
-package com.compare;
+package main.java.com.compare;
 
-import com.company.Employee2;
+import main.java.com.company.Employee2;
 
-import java.util.Comparator;
 import java.util.HashMap;
 import java.util.Map;
-import java.util.stream.Collectors;
 
 public class MapCompareUsingComparatorTest {
 

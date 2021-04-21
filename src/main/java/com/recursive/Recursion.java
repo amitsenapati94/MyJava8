@@ -1,4 +1,4 @@
-package com.recursive;
+package main.java.com.recursive;
 
 public class Recursion {
 

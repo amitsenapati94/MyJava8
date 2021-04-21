@@ -1,4 +1,4 @@
-package com.algo;
+package main.java.com.algo;
 
 import java.util.HashSet;
 import java.util.Set;

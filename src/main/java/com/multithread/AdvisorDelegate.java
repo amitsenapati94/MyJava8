@@ -1,7 +1,4 @@
-package com.multithread;
-
-import jdk.nashorn.internal.codegen.CompilerConstants;
-import org.omg.CORBA.TIMEOUT;
+package main.java.com.multithread;
 
 import java.util.ArrayList;
 import java.util.concurrent.*;

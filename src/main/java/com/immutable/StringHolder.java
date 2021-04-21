@@ -1,7 +1,7 @@
 //https://www.ibm.com/developerworks/java/library/j-jtp02183/index.html
 
 
-package com.immutable;
+package main.java.com.immutable;
 
 public class StringHolder {
 

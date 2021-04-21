@@ -1,4 +1,4 @@
-package com.joshua;
+package main.java.com.joshua;
 
 import java.util.HashSet;
 import java.util.Set;

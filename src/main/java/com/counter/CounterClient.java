@@ -1,4 +1,4 @@
-package com.counter;
+package main.java.com.counter;
 
 public class CounterClient {
 

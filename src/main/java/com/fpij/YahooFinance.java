@@ -1,4 +1,4 @@
-package com.fpij;
+package main.java.com.fpij;
 
 import java.math.BigDecimal;
 import java.util.HashMap;

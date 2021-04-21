@@ -1,4 +1,4 @@
-package com.sorting;
+package main.java.com.sorting;
 
 public class BubbleSort {
 

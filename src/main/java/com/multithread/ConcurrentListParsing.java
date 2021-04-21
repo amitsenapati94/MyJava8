@@ -1,4 +1,4 @@
-package com.multithread;
+package main.java.com.multithread;
 
 import com.google.common.collect.Lists;
 

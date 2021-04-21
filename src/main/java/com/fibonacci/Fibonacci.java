@@ -1,4 +1,4 @@
-package com.fibonacci;
+package main.java.com.fibonacci;
 
 /*
 

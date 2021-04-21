@@ -1,8 +1,7 @@
-package com.counter;
+package main.java.com.counter;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
-import java.util.concurrent.atomic.AtomicInteger;
 
 public class CounterRunning implements Runnable{
     //public static AtomicInteger counter = new AtomicInteger();

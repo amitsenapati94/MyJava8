@@ -1,7 +1,7 @@
-package com.countdownlatch;
+package main.java.com.countdownlatch;
 
-import com.model.Employee;
-import com.model.EmployeeGraph;
+import main.java.com.model.Employee;
+import main.java.com.model.EmployeeGraph;
 
 import java.util.List;
 import java.util.concurrent.CountDownLatch;

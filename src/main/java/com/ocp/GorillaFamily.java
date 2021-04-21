@@ -1,4 +1,4 @@
-package com.ocp;
+package main.java.com.ocp;
 
 class GorillaFamily {
     String walk = "walk";

@@ -1,4 +1,4 @@
-package com.joshua.singleton;
+package main.java.com.joshua.singleton;
 
 public enum SingletonEnum {
     INSTANCE;
