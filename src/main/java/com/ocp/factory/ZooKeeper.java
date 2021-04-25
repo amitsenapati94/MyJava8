@@ -1,4 +1,4 @@
-package main.java.com.ocp.factory;
+package com.ocp.factory;
 
 public class ZooKeeper {
 

@@ -1,4 +1,4 @@
-package main.java.com.joshua.singleton;
+package com.joshua.singleton;
 
 public class EnumDemo {
 

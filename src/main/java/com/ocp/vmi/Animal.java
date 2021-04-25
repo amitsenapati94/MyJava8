@@ -1,4 +1,4 @@
-package main.java.com.ocp.vmi;
+package com.ocp.vmi;
 
 abstract class Animal {
     public void careFor() {

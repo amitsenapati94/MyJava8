@@ -1,4 +1,4 @@
-package main.java.com.ocp.compare;
+package com.ocp.compare;
 
 import java.util.Comparator;
 

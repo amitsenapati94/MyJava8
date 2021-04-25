@@ -1,4 +1,4 @@
-package main.java.com.modern.part1;
+package com.modern.part1;
 
 public class Apple{
     @Override

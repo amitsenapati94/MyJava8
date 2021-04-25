@@ -1,4 +1,4 @@
-package main.java.com.ocp;
+package com.ocp;
 
 public class InstanceofTest {
 

@@ -1,5 +1,5 @@
 
-package main.java.com.defaultmethods;
+package com.defaultmethods;
 
 public interface Fly {
 

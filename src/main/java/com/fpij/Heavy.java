@@ -1,4 +1,4 @@
-package main.java.com.fpij;
+package com.fpij;
 
 public class Heavy {
   public Heavy() {

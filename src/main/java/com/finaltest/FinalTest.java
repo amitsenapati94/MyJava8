@@ -1,4 +1,4 @@
-package main.java.com.finaltest;
+package com.finaltest;
 
 import java.util.ArrayList;
 import java.util.List;

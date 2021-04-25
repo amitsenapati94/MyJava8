@@ -1,4 +1,4 @@
-package main.java.com.ocp.builder;
+package com.ocp.builder;
 
 public class BankAccount {
 

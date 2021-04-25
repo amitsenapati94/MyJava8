@@ -1,4 +1,4 @@
-package main.java.com.company;
+package com.company;
 
 /**
  * @author Wells Fargo Advisors

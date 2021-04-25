@@ -1,4 +1,4 @@
-package main.java.com.defaultmethods;
+package com.defaultmethods;
 
 public class SeaPlane extends Vehicle implements FastFly, Sail{
 

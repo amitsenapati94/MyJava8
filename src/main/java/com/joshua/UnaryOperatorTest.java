@@ -1,4 +1,4 @@
-package main.java.com.joshua;
+package com.joshua;
 
 import java.util.function.UnaryOperator;
 

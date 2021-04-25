@@ -1,4 +1,4 @@
-package main.java.com.ocp;
+package com.ocp;
 
 import java.util.*;
 import java.util.stream.Collectors;

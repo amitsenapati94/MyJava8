@@ -1,4 +1,4 @@
-package main.java.com.mytest;
+package com.mytest;
 
 import java.io.IOException;
 import java.nio.file.Files;

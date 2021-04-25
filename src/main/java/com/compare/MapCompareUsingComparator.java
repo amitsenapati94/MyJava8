@@ -1,7 +1,7 @@
-package main.java.com.compare;
+package com.compare;
 
-import main.java.com.company.Employee2;
-import main.java.com.company.EmployeeAgeComparator;
+import com.company.Employee2;
+import com.company.EmployeeAgeComparator;
 
 import java.util.*;
 import java.util.stream.Collectors;

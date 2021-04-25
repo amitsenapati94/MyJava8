@@ -1,4 +1,4 @@
-package main.java.com.modern.part1;
+package com.modern.part1;
 
 import java.util.ArrayList;
 import java.util.Comparator;

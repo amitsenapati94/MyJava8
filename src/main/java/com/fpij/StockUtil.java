@@ -1,4 +1,4 @@
-package main.java.com.fpij;
+package com.fpij;
 
 import java.math.BigDecimal;
 import java.util.function.Predicate;

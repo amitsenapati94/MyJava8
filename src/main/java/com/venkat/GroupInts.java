@@ -1,4 +1,4 @@
-package main.java.com.venkat;
+package com.venkat;
 
 import java.util.*;
 import java.util.function.Function;

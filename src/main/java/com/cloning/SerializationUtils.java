@@ -1,4 +1,4 @@
-package main.java.com.cloning;
+package com.cloning;
 
 import com.google.gson.Gson;
 

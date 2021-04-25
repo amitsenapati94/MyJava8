@@ -1,4 +1,4 @@
-package main.java.com.algo;
+package com.algo;
 
 import java.util.HashMap;
 import java.util.Map;

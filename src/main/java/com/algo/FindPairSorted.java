@@ -1,4 +1,4 @@
-package main.java.com.algo;
+package com.algo;
 
 public class FindPairSorted {
 

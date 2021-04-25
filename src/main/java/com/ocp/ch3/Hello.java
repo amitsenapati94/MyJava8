@@ -1,4 +1,4 @@
-package main.java.com.ocp.ch3;
+package com.ocp.ch3;
 
 public class Hello<T> {
  T t;

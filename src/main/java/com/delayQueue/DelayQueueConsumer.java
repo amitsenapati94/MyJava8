@@ -1,4 +1,4 @@
-package main.java.com.delayQueue;
+package com.delayQueue;
 
 import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.atomic.AtomicInteger;

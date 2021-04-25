@@ -1,4 +1,4 @@
-package main.java.com.power;
+package com.power;
 
 public class Power {
 

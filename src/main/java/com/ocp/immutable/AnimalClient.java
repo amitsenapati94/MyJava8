@@ -1,4 +1,4 @@
-package main.java.com.ocp.immutable;
+package com.ocp.immutable;
 
 import java.util.ArrayList;
 import java.util.Arrays;

@@ -1,4 +1,4 @@
-package main.java.com.mytest;
+package com.mytest;
 
 import java.util.function.IntFunction;
 import java.util.function.IntUnaryOperator;

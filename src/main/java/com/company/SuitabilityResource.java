@@ -1,4 +1,4 @@
-package main.java.com.company;
+package com.company;
 
 /**
  * Created by amitsenapati on 9/18/17.

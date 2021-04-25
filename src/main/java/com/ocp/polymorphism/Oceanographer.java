@@ -1,4 +1,4 @@
-package main.java.com.ocp.polymorphism;
+package com.ocp.polymorphism;
 
 public class Oceanographer {
 

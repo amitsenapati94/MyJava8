@@ -1,4 +1,4 @@
-package main.java.com.mytest;
+package com.mytest;
 
 
 //super class sub class constructor invoke

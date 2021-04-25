@@ -1,4 +1,4 @@
-package main.java.com.ocp.inner;
+package com.ocp.inner;
 
 public class EffFinal1{
 

@@ -1,4 +1,4 @@
-package main.java.com.ocp.generic;
+package com.ocp.generic;
 
 import java.util.Arrays;
 import java.util.HashSet;

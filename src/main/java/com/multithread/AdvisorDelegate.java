@@ -1,4 +1,4 @@
-package main.java.com.multithread;
+package com.multithread;
 
 import java.util.ArrayList;
 import java.util.concurrent.*;

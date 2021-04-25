@@ -1,4 +1,4 @@
-package main.java.com.ocp.ch2;
+package com.ocp.ch2;
 
 
  interface CanClimb {

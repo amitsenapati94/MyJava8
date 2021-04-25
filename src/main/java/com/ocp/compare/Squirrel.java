@@ -1,4 +1,4 @@
-package main.java.com.ocp.compare;
+package com.ocp.compare;
 
 public class Squirrel {
     private int weight;

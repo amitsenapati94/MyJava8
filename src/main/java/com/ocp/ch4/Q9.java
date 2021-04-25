@@ -1,4 +1,4 @@
-package main.java.com.ocp.ch4;
+package com.ocp.ch4;
 
 import java.util.OptionalLong;
 import java.util.stream.LongStream;

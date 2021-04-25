@@ -1,4 +1,4 @@
-package main.java.com.mytest;
+package com.mytest;
 
 public interface Vehicle {
 }

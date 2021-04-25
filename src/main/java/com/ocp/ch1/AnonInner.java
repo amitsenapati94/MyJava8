@@ -1,4 +1,4 @@
-package main.java.com.ocp.ch1;
+package com.ocp.ch1;
 
 public class AnonInner {
     interface SaleTodayOnly {

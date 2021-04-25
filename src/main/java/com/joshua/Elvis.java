@@ -1,4 +1,4 @@
-package main.java.com.joshua;
+package com.joshua;
 
 public class Elvis {
 public static final Elvis INSTANCE = new Elvis();

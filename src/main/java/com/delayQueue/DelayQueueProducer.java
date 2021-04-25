@@ -1,4 +1,4 @@
-package main.java.com.delayQueue;
+package com.delayQueue;
 
 import java.util.UUID;
 import java.util.concurrent.BlockingQueue;

@@ -1,4 +1,4 @@
-package main.java.com.ch1;
+package com.ch1;
 
 public class Pallindrone {
 

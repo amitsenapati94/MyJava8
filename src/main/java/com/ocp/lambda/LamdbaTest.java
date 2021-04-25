@@ -1,4 +1,4 @@
-package main.java.com.ocp.lambda;
+package com.ocp.lambda;
 
 @FunctionalInterface
 interface Converter<F, T> {

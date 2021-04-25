@@ -1,6 +1,6 @@
 //https://www.journaldev.com/122/concurrenthashmap-in-java
 
-package main.java.com.concurrenthashmap;
+package com.concurrenthashmap;
 
 import java.util.HashMap;
 import java.util.Iterator;

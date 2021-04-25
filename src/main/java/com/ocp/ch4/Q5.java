@@ -1,4 +1,4 @@
-package main.java.com.ocp.ch4;
+package com.ocp.ch4;
 
 public class Q5 {
 

@@ -1,4 +1,4 @@
-package main.java.com.ocp.vmi;
+package com.ocp.vmi;
 
 //virtual method invocation
 

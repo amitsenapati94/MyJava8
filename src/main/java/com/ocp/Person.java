@@ -1,4 +1,4 @@
-package main.java.com.ocp;
+package com.ocp;
 
 class Person {
    public String name;

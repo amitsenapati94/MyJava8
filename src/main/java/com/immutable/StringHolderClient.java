@@ -1,4 +1,4 @@
-package main.java.com.immutable;
+package com.immutable;
 
 import java.util.HashSet;
 

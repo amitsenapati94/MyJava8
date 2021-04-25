@@ -1,4 +1,4 @@
-package main.java.com.model;
+package com.model;
 import java.util.List;
 
 public class Employee{

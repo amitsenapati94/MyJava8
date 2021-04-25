@@ -1,4 +1,4 @@
-package main.java.com.cloning;
+package com.cloning;
 
 class Address {
  

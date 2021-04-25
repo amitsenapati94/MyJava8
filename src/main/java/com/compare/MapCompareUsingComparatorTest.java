@@ -1,6 +1,6 @@
-package main.java.com.compare;
+package com.compare;
 
-import main.java.com.company.Employee2;
+import com.company.Employee2;
 
 import java.util.HashMap;
 import java.util.Map;

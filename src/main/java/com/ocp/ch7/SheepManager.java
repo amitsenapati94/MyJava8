@@ -1,4 +1,4 @@
-package main.java.com.ocp.ch7;
+package com.ocp.ch7;
 
 import java.util.concurrent.*;
 
