@@ -32,7 +32,9 @@ public class Emp {
 
 
         List<Emp> empSorted = emp.stream()
-           .sorted(Comparator.comparing(Emp::getfName).reversed().thenComparing(Emp::getlName))
+           .sorted(Comparator.comparing(Emp::getfName)
+           .reversed()
+           .thenComparing(Emp::getlName))
            .collect(Collectors.toList());
 
         empSorted.forEach(e -> System.out.println(e.getfName()+" "+e.getlName()));

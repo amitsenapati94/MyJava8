@@ -17,6 +17,6 @@ public class SupplierEx {
 
 
         Supplier<StringBuilder> sb1 = StringBuilder::new;
-        System.out.println(sb1.get());
+        System.out.println(sb1.get().append("hello"));
     }
 }
