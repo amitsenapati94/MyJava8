@@ -29,4 +29,13 @@ public class OrderLnAddInfo {
     public void setOrderNo(String orderNo) {
         this.orderNo = orderNo;
     }
+
+    @Override
+    public String toString() {
+        return "OrderLnAddInfo{" +
+                "colName='" + colName + '\'' +
+                ", colValue='" + colValue + '\'' +
+                ", orderNo='" + orderNo + '\'' +
+                '}';
+    }
 }
