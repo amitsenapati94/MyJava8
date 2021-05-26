@@ -10,6 +10,7 @@ public class FinalTest {
         final List<String> list = new ArrayList<>();
         System.out.println(list.size());
         list.add("some");
+        //list = somelist;
         System.out.println(list.size());
     }
 }

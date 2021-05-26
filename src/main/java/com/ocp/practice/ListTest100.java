@@ -49,7 +49,7 @@ public class ListTest100 {
         OrderLnAddInfo ord11 = null;
         orderLnAddInfoList.add(ord11);
 
-        if(CollectionUtils.isNotEmpty(orderLnAddInfoList))
+        /*if(CollectionUtils.isNotEmpty(orderLnAddInfoList))
         for(OrderLnAddInfo orderLnAddInfo : orderLnAddInfoList){
             //this will throw NPE if any item is null
             System.out.println(orderLnAddInfo.getColName());
@@ -59,6 +59,6 @@ public class ListTest100 {
             orderLnAddInfoList.stream()
                     .filter(Objects::nonNull)
                     .forEach(System.out::println);
-        }
+        }*/
     }
 }
