@@ -7,9 +7,15 @@ import java.util.Map;
 public class CHMapTest {
 
     public static void main(String[] args) {
+        //for one item is map it won't give concurrent modification exception
+
         Map<String, Object> foodData = new HashMap<>();
         foodData.put("penguin", 1);
         foodData.put("flamingo", 2);
+
+        //this will work
+        //foodData.remove("flamingo");
+
         for(String key: foodData.keySet()) {
             foodData.remove(key);
         }

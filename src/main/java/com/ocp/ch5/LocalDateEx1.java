@@ -28,6 +28,8 @@ public class LocalDateEx1 {
 
         System.out.println(start.isBefore(end));
 
+        System.out.println(start.compareTo(end));
+
 
     }
 }
