@@ -15,6 +15,7 @@ public class ListTest {
 
         list.add(2);
         list.add(4);
+        list.remove(6);
 
         Iterator<Integer> iterator = list.iterator();
 
@@ -27,12 +28,12 @@ public class ListTest {
             System.out.println(iterator.next());
         }
 
-        List<String> alist = new ArrayList<>();
+       /* List<String> alist = new ArrayList<>();
         alist.add(1,"one");
         alist.add(2,"two");
         alist.add(0,"three");
 
-        alist.stream().forEach( e -> System.out.println(e));
+        alist.stream().forEach( e -> System.out.println(e));*/
 
        /* CopyOnWriteArrayList<Integer> cowList = new CopyOnWriteArrayList<Integer>();
         cowList.add(4);

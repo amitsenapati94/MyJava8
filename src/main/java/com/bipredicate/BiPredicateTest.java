@@ -15,8 +15,8 @@ public class BiPredicateTest {
         BiPredicate<Employee2,Employee2> filter2 = (source,target) ->
                 source.getAge().equals(target.getAge());
 
-        Predicate<Employee2> filter1 = empployee ->
-                empployee.getName().equals("Dave");
+        Predicate<Employee2> filter1 = employee2 ->
+                employee2.getName().equals("Dave");
 
         Employee2 employee1 = new Employee2();
         employee1.setName("Dave");
@@ -42,13 +42,25 @@ public class BiPredicateTest {
         List<Employee2> finalResult = searchList(sourceList,filter1,filter2,employeeTarget);
         System.out.println(finalResult);
 
+        System.out.println(recordFound(sourceList,filter2,employeeTarget));
+
     }
 
     public static <T, U> List<T> searchList(List<T> list, Predicate<T> filter1, BiPredicate<T, U> filter2, U targetObj){
 
         return  list.stream()
                 .filter(filter1)
+                //.filter(e -> filter1.test(e))
                 .filter(e -> filter2.test(e,targetObj))
                 .collect(Collectors.toList());
+    }
+
+    public static <T, U> boolean recordFound(List<T> list, BiPredicate<T, U> filter2, U targetObj){
+
+        return  list.stream()
+                   .filter(e -> filter2.test(e,targetObj))
+                    .findFirst()
+                .isPresent();
+
     }
 }
